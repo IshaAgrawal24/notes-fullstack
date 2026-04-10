@@ -1,0 +1,22 @@
+{
+  "name": "notes-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "author": "Isha Agrawal",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "vite": "^8.0.8"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.0.1"
+  }
+}

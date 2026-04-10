@@ -32,4 +32,15 @@ app.post("/create-post", upload.single("image"), async(req, res) => {
     }) 
 });
 
+
+app.get("/posts", async(req,res) => {
+    const post = await postModel.find();
+
+    return res.status(200).json({
+        return_status: 200,
+        message: "Data send successfully.",
+        post
+    })
+})
+
 module.exports = app;

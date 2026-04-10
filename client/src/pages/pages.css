@@ -1,0 +1,76 @@
+.create-post {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #e3e3e3;
+  box-shadow: 1px 1px 5px #d0cfcf;
+}
+
+.createPost--section {
+  width: 100%;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.createPost--section form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.createPost--section form input {
+  padding: 12px 20px;
+  background-color: #fffafa;
+  box-shadow: 1px 1px 5px #d0cfcf;
+  border: #b4b1b1;
+  margin: 8px 0;
+  width: 80%;
+}
+
+.createPost--section form button {
+  padding: 8px 20px;
+  width: 250px;
+  font-weight: 600;
+  font-size: 18px;
+  background-color: rgb(157, 201, 239);
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+}
+
+.feed-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.post-section {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    background-color: #e3e3e3;
+    gap: 20px;
+    width: 20%;
+}
+
+.post-section #post-section--image {
+    text-align: center;
+    max-width: 90%;
+    margin: auto;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+.post-section #post-section--caption {
+    text-align: left;
+    margin: 10px ;
+    color: black;
+    font-weight: 600;
+}
